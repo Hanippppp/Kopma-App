@@ -1,16 +1,14 @@
-# kopma
+# Kopma
 
-A new Flutter project.
+Kopma is a Flutter application that allows users to input books they want to sell and manage book purchases. This application has various features to support the sale and purchase of books.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Input Book**: Users can input books they want to sell by filling out a form that includes the book's name, description, category, quantity, and price.
+- **Homepage**: Displays a list of books for sale.
+- **Item Details**: When an item is clicked, it shows the title, price, category, description, along with 'add to cart' and 'buy now' buttons.
+- **Add to Cart**: Adds the book to the shopping cart.
+- **Buy Now**: Directs the user to the checkout page.
+- **Checkout Page**: Displays the book name, price, quantity to be purchased, total price, and a 'pay now' button.
+- **History**: Shows purchased items with the date and time of purchase.
+- **Cart Page**: Displays items added to the cart, allows users to increase the quantity of items, remove items from the cart, updates the total price, and includes a 'buy all' button.
